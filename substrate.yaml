@@ -1,0 +1,10 @@
+service: test-consumer
+schema_type: openapi
+spec_path: openapi.yaml
+
+consumers:
+  - name: "test-provider-api"
+    provider_repo: "<your-github-username>/substrate-test-provider"
+    schema_type: openapi
+    provider_spec_path: "openapi.yaml"
+    provider_branch: "main"
