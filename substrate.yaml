@@ -1,7 +1,6 @@
-# Seeded at 1783644424192420896
 service: test-consumer
 consumers:
-  - name: sql-dep
+  - name: openapi-dep
     provider_repo: KrushnaVardhanReddy/substrate-test-provider
-    schema_type: sql
-    provider_spec_path: schema.sql
+    schema_type: openapi
+    provider_spec_path: openapi.yaml
