@@ -1,7 +1,7 @@
 service: test-consumer
 consumers:
   - name: "test-provider"
-    type: terraform-plan
+    type: ai-model
     source: "github.com/KrushnaVardhanReddy/substrate-test-provider"
-    path: "plan.json"
+    path: "model.yaml"
     branch: "main"
