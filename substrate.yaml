@@ -1,7 +1,7 @@
 service: test-consumer
 consumers:
   - name: "test-provider"
-    type: avro
+    type: terraform-plan
     source: "github.com/KrushnaVardhanReddy/substrate-test-provider"
-    path: "user.avsc"
+    path: "plan.json"
     branch: "main"
