@@ -1,7 +1,7 @@
 service: test-consumer
 consumers:
   - name: "test-provider"
-    type: asyncapi
+    type: avro
     source: "github.com/KrushnaVardhanReddy/substrate-test-provider"
-    path: "asyncapi.yaml"
+    path: "user.avsc"
     branch: "main"
