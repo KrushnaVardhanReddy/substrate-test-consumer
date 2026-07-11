@@ -1,7 +1,7 @@
-# Seeded at 1783780490924647112
 service: test-consumer
 consumers:
-  - name: sql-dep
-    provider_repo: KrushnaVardhanReddy/substrate-test-provider
-    schema_type: sql
-    provider_spec_path: schema.sql
+  - name: "test-provider"
+    type: graphql
+    source: "github.com/KrushnaVardhanReddy/substrate-test-provider"
+    path: "schema.graphql"
+    branch: "main"
