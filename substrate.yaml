@@ -1,4 +1,4 @@
-# Seeded at 1783780462982539941
+# Seeded at 1783780490924647112
 service: test-consumer
 consumers:
   - name: sql-dep
